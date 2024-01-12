@@ -1,2 +1,4 @@
 # GTSAM_TOOLBOX
 Gtsam_matlab_toolbox
+系统：windows11 Matlab2022b
+官方给予的GTSAM的C++库，在进行编译时，由于在cmake文件中设置GTSAM_INSTALL_MATLAB_TOOLBOX为disable，因此其直接运行matlab程序容易出现找不到gtsam_wrapper的问题，此程序包解决了这个问题
